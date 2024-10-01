@@ -1,6 +1,8 @@
-uang_dolar_suraji = 35 
-#kurs tanggal 25 september 2024
-kurs = 15.102
+# import math berfungsi untuk menggunakan operasi matematika
+import math
 
-rupiah = uang_dolar_suraji * kurs
-print(f"uang suraji adalah:{rupiah}")
+jumlah_orang = 7 #n
+banyaknya_orang_yang_dipilih = 4 #k
+# math.comb berfungsi untuk melakukan fungsi combinasi
+Hasil=math.comb(jumlah_orang,banyaknya_orang_yang_dipilih)
+print("cara yang bisa digunakan Darsono sebanyak:",Hasil)
